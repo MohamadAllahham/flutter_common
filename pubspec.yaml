@@ -1,0 +1,28 @@
+name: common
+description: Shared functions and components for Flutter applications.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+  logger: ^2.5.0 # logging with different levels of severity
+  url_launcher: ^6.3.1 # launch any url on any platform
+  http: ^1.3.0 # high-level HTTP handling
+  http_interceptor: ^2.0.0 # intercepting HTTP requests and responses
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0 # static code analysis with options in `analysis_options.yaml`
+
+flutter:
+  uses-material-design: true # include material icons font
