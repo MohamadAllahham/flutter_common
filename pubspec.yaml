@@ -1,4 +1,4 @@
-name: common
+name: flutter_common
 description: Shared functions and components for Flutter applications.
 publish_to: "none"
 
