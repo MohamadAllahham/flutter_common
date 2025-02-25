@@ -1,4 +1,4 @@
-import 'package:common/with_separator.dart';
+import 'package:flutter_common/with_separator.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

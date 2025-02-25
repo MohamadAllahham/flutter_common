@@ -1,5 +1,5 @@
-import 'package:common/logging.dart';
-import 'package:common/network/api_response.dart';
+import 'package:flutter_common/logging.dart';
+import 'package:flutter_common/network/api_response.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

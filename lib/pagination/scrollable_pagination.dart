@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:common/pagination/paginated.dart';
-import 'package:common/pagination/pagination.dart';
-import 'package:common/typedefs.dart';
+import 'package:flutter_common/pagination/paginated.dart';
+import 'package:flutter_common/pagination/pagination.dart';
+import 'package:flutter_common/typedefs.dart';
 import 'package:flutter/material.dart';
 
 class ScrollablePagination<T> extends StatefulWidget {

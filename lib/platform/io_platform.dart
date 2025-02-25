@@ -1,4 +1,4 @@
-import 'package:common/platform/platform_stub.dart';
+import 'package:flutter_common/platform/platform_stub.dart';
 
 IoPlatform? instance;
 

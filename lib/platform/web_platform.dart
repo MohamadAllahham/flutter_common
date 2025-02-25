@@ -2,7 +2,7 @@
 // ignore_for_file: avoid_web_libraries_in_flutter
 import 'dart:js';
 
-import 'package:common/platform/platform_stub.dart';
+import 'package:flutter_common/platform/platform_stub.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
 
 WebPlatform? instance;

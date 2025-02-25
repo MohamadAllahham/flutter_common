@@ -1,4 +1,4 @@
-import 'package:common/logging.dart';
+import 'package:flutter_common/logging.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 enum PhoneNumberLaunchMode {

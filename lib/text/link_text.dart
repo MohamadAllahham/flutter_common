@@ -1,4 +1,4 @@
-import 'package:common/text/unselectable/unselectable_ink_well.dart';
+import 'package:flutter_common/text/unselectable/unselectable_ink_well.dart';
 import 'package:flutter/material.dart';
 
 class LinkText extends StatelessWidget {

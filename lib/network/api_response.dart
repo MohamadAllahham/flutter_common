@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:common/logging.dart';
+import 'package:flutter_common/logging.dart';
 
 class ApiResponse {
   static final logger = createLogger(ApiResponse);
@@ -22,9 +22,9 @@ class ApiResponse {
 
   Map<String, dynamic> asMap() {
     if (_body is Map<String, dynamic>) {
-      return _body as Map<String, dynamic>;
+      return _body;
     }
-    if (_body is Map && (_body as Map).isEmpty) {
+    if (_body is Map && (_body).isEmpty) {
       return {};
     }
     logger
@@ -34,11 +34,11 @@ class ApiResponse {
 
   List<Map<String, dynamic>> asList() {
     if (_body is List<Map<String, dynamic>>) {
-      return _body as List<Map<String, dynamic>>;
+      return _body;
     }
     if (_body is List &&
-        (_body as List).every((e) => e is Map<String, dynamic>)) {
-      return (_body as List).map((e) => e as Map<String, dynamic>).toList();
+        _body.every((e) => e is Map<String, dynamic>)) {
+      return _body.map((e) => e as Map<String, dynamic>).toList();
     }
     logger.e(
       'Response $_body of tperm_service.dartype ${_body.runtimeType} is not a valid list.',

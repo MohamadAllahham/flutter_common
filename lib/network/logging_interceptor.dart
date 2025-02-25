@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:common/logging.dart';
+import 'package:flutter_common/logging.dart';
 import 'package:http_interceptor/http_interceptor.dart';
 
 class LoggingInterceptor implements InterceptorContract {

@@ -1,4 +1,4 @@
-import 'package:common/text/lorem_ipsum.dart';
+import 'package:flutter_common/text/lorem_ipsum.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

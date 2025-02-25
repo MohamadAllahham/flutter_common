@@ -1,4 +1,4 @@
-import 'package:common/diff.dart';
+import 'package:flutter_common/diff.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

@@ -1,4 +1,4 @@
-import 'package:common/form/validation.dart';
+import 'package:flutter_common/form/validation.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

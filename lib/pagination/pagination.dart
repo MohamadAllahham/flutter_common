@@ -1,5 +1,5 @@
-import 'package:common/pagination/paginated.dart';
-import 'package:common/pagination/pagination_controls.dart';
+import 'package:flutter_common/pagination/paginated.dart';
+import 'package:flutter_common/pagination/pagination_controls.dart';
 import 'package:flutter/material.dart';
 
 typedef LoadCallback<T> = Future<Paginated<T>> Function({

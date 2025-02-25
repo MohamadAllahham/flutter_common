@@ -1,5 +1,5 @@
-import 'package:common/pagination/pagination_controls.dart';
-import 'package:common/text/link_text.dart';
+import 'package:flutter_common/pagination/pagination_controls.dart';
+import 'package:flutter_common/text/link_text.dart';
 import 'package:flutter/material.dart';
 
 class JumpToPageControl extends StatelessWidget {
@@ -23,7 +23,7 @@ class JumpToPageControl extends StatelessWidget {
       child: Text(
         (index + 1).toString(),
         style: TextStyle(
-          color: colorScheme.onBackground,
+          color: colorScheme.onSurface,
         ),
       ),
     );

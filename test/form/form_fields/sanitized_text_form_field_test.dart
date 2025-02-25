@@ -1,4 +1,4 @@
-import 'package:common/form/form_fields/sanitized_text_form_field.dart';
+import 'package:flutter_common/form/form_fields/sanitized_text_form_field.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

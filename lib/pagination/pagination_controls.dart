@@ -1,8 +1,8 @@
-import 'package:common/layout/conditional.dart';
-import 'package:common/pagination/numbered_controls/current_page_control.dart';
-import 'package:common/pagination/numbered_controls/jump_to_page_control.dart';
-import 'package:common/pagination/paginated.dart';
-import 'package:common/with_separator.dart';
+import 'package:flutter_common/layout/conditional.dart';
+import 'package:flutter_common/pagination/numbered_controls/current_page_control.dart';
+import 'package:flutter_common/pagination/numbered_controls/jump_to_page_control.dart';
+import 'package:flutter_common/pagination/paginated.dart';
+import 'package:flutter_common/with_separator.dart';
 import 'package:flutter/material.dart';
 
 typedef JumpToPageCallback = void Function(int index);

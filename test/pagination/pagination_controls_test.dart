@@ -1,6 +1,6 @@
-import 'package:common/pagination/numbered_controls/current_page_control.dart';
-import 'package:common/pagination/paginated.dart';
-import 'package:common/pagination/pagination_controls.dart';
+import 'package:flutter_common/pagination/numbered_controls/current_page_control.dart';
+import 'package:flutter_common/pagination/paginated.dart';
+import 'package:flutter_common/pagination/pagination_controls.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

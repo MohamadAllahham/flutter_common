@@ -1,4 +1,4 @@
-import 'package:common/typedefs.dart';
+import 'package:flutter_common/typedefs.dart';
 import 'package:flutter/material.dart';
 
 class UnselectableDropdownButtonFormField<T> extends StatelessWidget {

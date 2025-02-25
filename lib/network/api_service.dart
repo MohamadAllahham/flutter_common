@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:common/logging.dart';
-import 'package:common/network/api_exception.dart';
-import 'package:common/network/api_response.dart';
+import 'package:flutter_common/logging.dart';
+import 'package:flutter_common/network/api_exception.dart';
+import 'package:flutter_common/network/api_response.dart';
 import 'package:http_interceptor/http/intercepted_http.dart';
 import 'package:http_interceptor/models/interceptor_contract.dart';
 
